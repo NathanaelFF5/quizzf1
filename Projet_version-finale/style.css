@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(to bottom right, #b800ca, #1500ca);
+    text-align: center;
+    font-family: Courier New;
+}
+
+#container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+    text-align: center; /* Center the content within the container */
+}
+
+/* Bordered form */
+form {
+    width: 30%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin: 0 auto; /* Center the form horizontally within the container */
+    margin-bottom: 20%
+}
+
+#container h1 {
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+input[type=submit]
+{
+	display: block;
+    margin: 20px auto;
+    background-color: #6800b0;
+    border-radius: 10px;
+    border: 4px double #250081;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+input[type=submit]:hover {
+	background-color: #2f00a4;
+    border: 2px solid #ffffff;
+    box-shadow: 10px 5px 5px #b800ca;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    background-color: #6800b0;
+    border-radius: 10px;
+    border: 4px double #250081;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-bottom: 35%
+}
+
+
+button:hover {
+    background-color: #2f00a4;
+    border: 2px solid #ffffff;
+    box-shadow: 10px 5px 5px #b800ca;
+    color: #ffffff;
+    font-size: 22px;
+}

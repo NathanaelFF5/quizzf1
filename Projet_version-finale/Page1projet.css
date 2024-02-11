@@ -1,0 +1,51 @@
+body
+{	
+	background-image: linear-gradient(rgba(175, 0, 0, 0.35), rgba(75, 1, 1, 0.35)),
+                  url("images/ferrari.JPEG");
+                  margin-bottom: 45%;
+                  background-size: 100%;
+    color: white;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+
+}
+
+h1
+{
+	color : white;
+	text-align: center;
+}
+
+ .bouton{
+                                        display: block;
+                                        margin-left: 42.3%;
+                                        align-content: center;
+                                        background-color: #ee7171;
+                                        border-radius: 10px;
+                                        border: 4px double #ec1f1f;
+                                        color: #ffffff;
+                                        text-align: center;
+                                        font-size: 20px;
+                                        padding: 10px;
+                                        width: 200px;
+                                        cursor: pointer;
+                                        -webkit-transition: all 0.5s;
+                                        -moz-transition: all 0.5s;
+                                        -o-transition: all 0.5s;
+                                        transition: all 0.5s;
+
+}
+                                .bouton:hover{
+                                        background-color: #ffffff;
+                                        border: 2px solid #ec1f1f;
+                                        box-shadow: 10px 5px 5px #ee7171;
+                                        color: #ec1f1f;
+                                        text-align: center;
+                                        font-size: 22px;
+}
+
+.centrer
+{
+	text-align: center;
+}
